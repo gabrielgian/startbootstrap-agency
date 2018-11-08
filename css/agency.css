@@ -13,6 +13,10 @@ p {
   line-height: 1.75;
 }
 
+strong {
+  font-size: 18px;
+}
+
 a {
   color: #fed136;
 }
@@ -134,7 +138,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
-  font-weight: 400;
+  font-weight: 600;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
@@ -594,15 +598,23 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.text-muted {
+  line-height: 1.75 !important;
+}
+
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/foto-cadastro2.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section#contact .section-heading {
   color: #fff;
+}
+
+section#contact .section-subheading, section#contact p {
+  color: #fff !important;
 }
 
 section#contact .form-group {
@@ -660,6 +672,7 @@ footer {
 footer span.copyright {
   font-size: 90%;
   line-height: 40px;
+  font-weight: 600;
   text-transform: none;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -687,9 +700,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #fed136;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #212529;
 }
