@@ -2,7 +2,7 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/banner-land-estagio.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -46,5 +46,14 @@ header.masthead {
         @include heading-font;
       }
     }
+  }
+}
+@media(min-width:1200px) {
+  header.masthead {
+    height: 1050px;
+  }
+  .intro-heading {
+    padding-top: 65px;
+    text-shadow: 1px 1px 1px #999999;
   }
 }
